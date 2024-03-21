@@ -1,7 +1,6 @@
 import os
 from pathlib import Path
 import logging
-
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
@@ -15,7 +14,7 @@ list_of_files = [
     "research/trails.ipynb",
     "app.py",
     "store_index.py",
-    "static/ .gitkeep",
+    "static/.gitkeep",
     "templates/chat.html"
     
 ]
