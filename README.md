@@ -18,23 +18,6 @@ Vector Database: Utilizes Pinecone for efficient storage and retrieval of embedd
 
 
 ## Steps to run the project:
-```bash
-conda create -n mchatbot python=3.8 -y
-```
-
-```bash
-conda activate mchatbot
-```
-
-```bash
-pip install -r requirement.txt
-```
-
-```bash
-python app.py
-```
- ```Access the chat bot at http://localhost:5000 in your web browser.```
-
 
 ### Clone the repository
 
@@ -52,21 +35,20 @@ pip install -r requirements.txt
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-# Download the quantize model from the link provided in model folder & keep the model in the model directory:
-## Download the Llama 2 Model:
+### Download the quantize model from the link provided in model folder & keep the model in the model directory:
+### Download the Llama 2 Model:
 llama-2-7b-chat.ggmlv3.q4_0.bin
 
-## From the following link:
+### From the following link:
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 
-## run the following command
+### run the following command
 python store_index.py
 
-## Finally run the following command
+### Finally run the following command
 python app.py
-Now,
 
-open up localhost:
+Now,open up localhost:
 
 
 ## Usage:
