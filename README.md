@@ -5,6 +5,7 @@
 Welcome to the Medical Chat Bot project! This end-to-end chat bot leverages machine learning to provide accurate medical information based on uploaded PDF medical data. Whether you’re a healthcare professional or a curious individual, this generative AI project aims to assist you with relevant responses.
 
 ##Features:
+
 PDF Data Upload: Upload your medical data in PDF format.
 
 Corresponding Results: Receive relevant and context-aware answers based on the uploaded data.
